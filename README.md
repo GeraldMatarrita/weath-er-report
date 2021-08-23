@@ -1,6 +1,7 @@
 weather-report
 ==============
 
+[![Java CI with Maven](https://github.com/GeraldMatarrita/weath-er-report/actions/workflows/maven.yml/badge.svg)](https://github.com/GeraldMatarrita/weath-er-report/actions/workflows/maven.yml)
 
 Aplicación para obtener el reporte del tiempo.
 

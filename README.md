@@ -1,11 +1,10 @@
 weather-report
 ==============
 
-<<<<<<< HEAD
 [![Java CI with Maven](https://github.com/GeraldMatarrita/weath-er-report/actions/workflows/maven.yml/badge.svg)](https://github.com/GeraldMatarrita/weath-er-report/actions/workflows/maven.yml)
 
 =======
->>>>>>> 846bc9ae89211b8f0931691837666adab0a0e418
+
 Aplicación para obtener el reporte del tiempo.
 
 Nombre:  Gerald Matarrita Alvarado

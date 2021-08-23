@@ -1,7 +1,6 @@
 package tec.bd.weather.imn;
 
 import tec.bd.weather.model.Report;
-import tec.bd.weather.openweather.OpenWeatherReport;
 import tec.bd.weather.provider.BaseWeatherProvider;
 
 public class IMNProvider extends BaseWeatherProvider<Report> {
@@ -34,15 +33,4 @@ public class IMNProvider extends BaseWeatherProvider<Report> {
         report.setMinTemperature(287.18f);
         return report;
     }
-
-    protected Report fromProviderReport(IMNReport providerReport) {
-        var report = new Report();
-        report.setCity(providerReport.getCity());
-        report.setHumidity(providerReport.getHumidity());
-        report.setTemperature(providerReport.getPressure());
-        report.setMaxTemperature(providerReport.getMaxTemperature());
-        report.setMinTemperature(providerReport.getMinTemperature());
-        return report;
-    }
-
 }
